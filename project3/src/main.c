@@ -17,5 +17,14 @@ int main() {
     // Call the parent process function
     parent_process(command_file, text_file);
 
+    // Read instructions from the command file
+    // char com[256] = "./test_files/config_3_100.txt";
+    // FILE *cf = fopen(command_file, "r");
+    // if (!cf) {
+    //     perror("Failed to open command file");
+    //     exit(EXIT_FAILURE);
+    // }
+    // fclose(cf);
+
     return 0;
 }
